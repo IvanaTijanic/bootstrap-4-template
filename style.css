@@ -1,0 +1,455 @@
+    :root {
+        --main-yellow: #edcb50;
+    }
+
+    body {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: #3b3b3b;
+    }
+
+    /* Navigation */
+
+    .nav-logo {
+        margin-left: 20px;
+    }
+
+    .nav-custom {
+        background-image: linear-gradient(to bottom, #f4d971, #ebcd60, #e1c14e, #d8b63c, #cfaa27);
+        padding: 10px 0 10px 0;
+        border: 1px solid #fff;
+    }
+
+    .btn-nav {
+        width: 125px;
+    }
+
+    /* Home section */
+
+    .homeSection {
+        position: relative;
+    }
+
+    .homeSection-text {
+        position: absolute;
+        top: 55px;
+        left: 15px;
+    }
+
+    .homeSection h1 {
+        font-family: 'Dancing Script', cursive;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .btnHome {
+        margin-top: 5px;
+    }
+
+    .homeSection p {
+        line-height: normal;
+    }
+
+    .btn-home {
+        width: 160px;
+    }
+
+    .btn-custom {
+        border-radius: 22px;
+        box-sizing: border-box;
+        padding: 7px 0 7px 0;
+        border: 1px solid #000;
+        background-color: transparent;
+    }
+
+    .btnDark {
+        font-weight: 800;
+        color: var(--main-yellow);
+        background-image: linear-gradient(to right top, #3b3b3b, #353535, #2f2f2f, #2a2a2a, #242424);
+    }
+
+    /* Section Feature services */
+
+    .secFeatured {
+        background-color: #f7f7f7;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ourImg, .ourHappyImg {
+        position: absolute;
+        left: -23px;
+        top: -16px;
+    }
+
+    .boxHeading, .happyHeading {
+        font-weight: 500;
+        position: relative;
+        font-size: 33px;
+    }
+
+    .secFeatured div p {
+        line-height: normal;
+    }
+
+    .secFeatured-box p:first-of-type {
+        font-size: 18px;
+    }
+
+    .secFeatured-box {
+        width: 250px;
+        display: inline-block;
+        -webkit-box-shadow: 0px 0px 32px -6px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 0px 32px -6px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 32px -6px rgba(0, 0, 0, 0.3);
+    }
+
+    .secFeatured-wrap {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .topOut {
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .checked {
+        color: var(--main-yellow);
+    }
+
+    .btn-down {
+        border-radius: 22px;
+        box-sizing: border-box;
+        border: none;
+        padding: 7px 18px 7px 18px;
+        background-color: var(--main-yellow);
+    }
+
+    .topOverlay {
+        position: relative;
+    }
+
+    .rateOverlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(0, 0, 0, 0.61);
+    }
+
+    .rateOverlayed {
+        padding-top: 64px;
+    }
+
+    .topOverlay:hover .rateOverlay {
+        opacity: 1;
+    }
+
+    /* Top Books */
+
+    .topBooks {
+        padding-bottom: 75px;
+    }
+
+    .topBooks h2 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+    }
+
+    .topBooks-row {
+        margin-left: 90px;
+        margin-right: 80px;
+    }
+
+    /* Baloons */
+
+    .imgBaloons {
+        position: relative;
+    }
+
+    .baloonsText {
+        position: absolute;
+        top: 0px;
+        left: 15px;
+    }
+
+    .baloonsText h2 {
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .baloons p {
+        font-size: 18px;
+    }
+
+    .mainImg {
+        height: 25vh;
+    }
+
+    /* Testimonial sector */
+
+    .quotes {
+        position: relative;
+    }
+
+    .quotes p {
+        line-height: normal;
+    }
+
+    .quotesName {
+        font-size: 20px;
+    }
+
+    .allquotes {
+        padding-top: 63px;
+        padding-left: 50px;
+    }
+
+    .imgQstart {
+        position: absolute;
+        left: -25px;
+        z-index: -10;
+    }
+
+    .imgQend {
+        position: absolute;
+        left: 313px;
+        top: 47px;
+        z-index: -10;
+    }
+
+    .imgProfil {
+        text-align: center;
+    }
+
+    /* Sector Special */
+
+    .special {
+        position: relative;
+    }
+
+    .specialText {
+        position: absolute;
+        top: 36%;
+        left: 37%;
+        text-align: center;
+    }
+
+    .sTfirst, .sTSecond, .sTThird {
+        font-weight: 600;
+    }
+
+    .sTfirst {
+        font-size: 43px;
+        letter-spacing: initial;
+    }
+
+    .sTSecond {
+        font-size: 80px;
+        margin-bottom: -23px;
+        margin-top: -35px;
+    }
+
+    .sTThird {
+        font-size: 32px;
+        margin-bottom: -5px;
+    }
+
+    .sTSecond {
+        color: var(--main-yellow);
+    }
+
+    .btnFooter {
+        border-radius: 18px;
+        width: 160px;
+        font-size: 18px;
+        padding: 12px 0 12px 0;
+    }
+
+    /* Footer */
+
+    .footer {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footer p {
+        margin: 0;
+    }
+
+    @media (min-width: 768px) {
+        /* Baloons*/
+        .mainImg {
+            height: 31vh;
+        }
+        .baloonsRight {
+            text-align: right;
+        }
+        .baloonsLeft {
+            text-align: left;
+        }
+        .loremImg {
+            margin-right: 48px;
+        }
+        .loremImgD {
+            margin-left: 40px;
+        }
+        /* Testimonial sector*/
+        .happyInRow {
+            align-items: center;
+        }
+        .imgProfil {
+            text-align: right;
+        }
+        .allquotes {
+            padding-left: 0;
+        }
+        .imgQend {
+            left: 237px;
+            top: 140px;
+        }
+        .secFeatured-box {
+            width: 200px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        /* Navigation */
+        .navbar {
+            position: absolute;
+        }
+        .nav-logo {
+            margin-left: 90px;
+        }
+        .nav-custom {
+            justify-content: flex-end;
+            margin-right: 80px;
+            background-image: none;
+            border: none;
+        }
+        li.nav-item.active.ml-3 > a{
+            border-bottom: 1px solid;
+    padding: 8px 0;
+        }
+        /* Home section */
+        .homeSection h1 {
+            font-size: 50px;
+            text-align: left;
+        }
+        .homeSection-text {
+            top: 165px;
+            left: 90px;
+        }
+        .secFeatured-box {
+            width: 250px;
+        }
+        /* Baloons */
+        .baloonsText {
+            left: 480px;
+        }
+        /* Specioal sector */
+        .specialText {
+            top: 40%;
+            left: 40%;
+        }
+        .sTThird {
+            margin-bottom: 15px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        /* Navigation */
+        .nav-logo {
+            margin-left: 293px;
+        }
+        .nav-custom {
+            margin-right: 283px;
+        }
+        .mainImg {
+            height: initial;
+        }
+        /* Home section */
+        .homeSection h1 {
+            font-size: 63px;
+            text-align: left;
+        }
+        .homeSection-text {
+            top: 221px;
+            left: 303px;
+        }
+        /* Section Feature services */
+        .sfWrapRight {
+            text-align: right;
+        }
+        .sfWrapLeft {
+            text-align: left;
+        }
+        /* Top books */
+        .topBooks h2 {
+            padding-top: 36px !important;
+            padding-bottom: 16px !important;
+        }
+        /* Baloons */
+        .baloonsText h2 {
+            font-size: 50px;
+            padding-bottom: 37px;
+        }
+        .baloonsText {
+            top: 57px;
+            left: 500px;
+        }
+        .baloonsRight, .baloonsLeft {
+            margin-bottom: 26px;
+        }
+        /* Most popular */
+        .topBooks h2 {
+            padding-top: 48px !important;
+            padding-bottom: 16px !important;
+        }
+        .topBooks {
+            padding-bottom: 66px;
+        }
+        /* Quotes */
+        .imgQend {
+            left: 322px;
+            top: 42px;
+        }
+        /* Specioal sector */
+        .specialText {
+            top: 40%;
+            left: 42%;
+        }
+        .sTfirst {
+            font-size: 57px;
+            letter-spacing: initial;
+        }
+        .sTSecond {
+            font-size: 100px;
+            margin-bottom: -23px;
+            margin-top: 0;
+        }
+        .sTThird {
+            font-size: 40px;
+            margin-bottom: 35px;
+        }
+        .btnFooter {
+            border-radius: 18px;
+            width: 200px;
+            font-size: 24px;
+            padding: 12px 0 12px 0;
+        }
+    }
