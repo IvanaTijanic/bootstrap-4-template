@@ -195,7 +195,7 @@
     }
 
     .mainImg {
-        height: 25vh;
+        height: 50vh;
     }
 
     /* Testimonial sector */
@@ -291,6 +291,45 @@
         margin: 0;
     }
 
+    @media (min-width:0px) and (max-width:576px) {
+        .topImg, .mainImg {
+            height: 100vh;
+            object-fit: none;
+            object-position: center;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .baloonsRight, .baloonsLeft {
+            width: 50%;
+            margin-top: 2.5rem;
+        }
+        /* Specioal sector */
+        .specialText {
+            top: 36%;
+            left: 36%;
+        }
+        .sTfirst {
+            font-size: 18px;
+            letter-spacing: initial;
+            margin-bottom: 0;
+        }
+        .sTSecond {
+            font-size: 22px;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        .sTThird {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+        .btnFooter {
+            border-radius: 18px;
+            width: 83px;
+            font-size: 13px;
+            padding: 3px 0 3px 0;
+        }
+    }
+
     @media (min-width: 768px) {
         /* Baloons*/
         .mainImg {
@@ -327,7 +366,25 @@
         }
     }
 
-    @media (min-width: 992px) {
+    @media (min-width:768px) and (max-width:992px) {
+        .mainImg {
+            height: 55vh;
+        }
+        .baloonsRight {
+            text-align: center;
+        }
+        .baloonsLeft {
+            text-align: center;
+        }
+        .loremImg {
+            margin-right: 0;
+        }
+        .loremImgD {
+            margin-left: 0;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width:1200px) {
         /* Navigation */
         .navbar {
             position: absolute;
@@ -341,9 +398,9 @@
             background-image: none;
             border: none;
         }
-        li.nav-item.active.ml-3 > a{
+        li.nav-item.active.ml-3>a {
             border-bottom: 1px solid;
-    padding: 8px 0;
+            padding: 8px 0;
         }
         /* Home section */
         .homeSection h1 {
@@ -358,6 +415,9 @@
             width: 250px;
         }
         /* Baloons */
+        .mainImg {
+            height: 80vh;
+        }
         .baloonsText {
             left: 480px;
         }
@@ -373,6 +433,22 @@
 
     @media (min-width: 1200px) {
         /* Navigation */
+        .navbar {
+            position: absolute;
+        }
+        .nav-logo {
+            margin-left: 90px;
+        }
+        .nav-custom {
+            justify-content: flex-end;
+            margin-right: 80px;
+            background-image: none;
+            border: none;
+        }
+        li.nav-item.active.ml-3>a {
+            border-bottom: 1px solid;
+            padding: 8px 0;
+        }
         .nav-logo {
             margin-left: 293px;
         }
